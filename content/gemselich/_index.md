@@ -17,7 +17,11 @@ We do a [Pull Request](https://github.com/onweru/compose/pulls) contributions wo
 You can [generate graphs, charts](]("docs/compose/graphs-charts-tables/#show-a-pie-doughnut--bar-chart-at-once")) and tables from a csv, ~~or a json~~ dataset
 {{< /tip >}}
 
-{{< button "docs/compose/" "Read the Docs" >}}{{< button "https://github.com/onweru/compose" "Download Theme" >}}
+{{< button "docs/compose/" "Read the Docs" >}}
+{{< button "https://github.com/onweru/compose" "Download Theme" >}}
+{{< button "docs/schnalle/" "Read the focks" >}}
+{{< button "docs/gock/" "Noch the docks" >}}
+{{< button "https://google.com" "GOckel" >}}
 
 {{< block "grid-2" >}}
 {{< column >}}
