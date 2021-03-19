@@ -19,9 +19,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   url = "docs/"
 
 [[menu.main]]
-  name = "Example"
+  name = "Rocks"
   weight = 3
-  url = "https://docs.neuralvibes.com"
+  url = "gemselich/"
 
 [markup]
   [markup.goldmark]
