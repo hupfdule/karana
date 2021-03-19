@@ -37,7 +37,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     lineNos = true
     lineNumbersInTable = false
     noClasses = false
-    style = "borland"
+    style = "dracula"
     tabWidth = 2
   [markup.tableOfContents]
     endLevel = 4
