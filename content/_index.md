@@ -13,6 +13,8 @@ title = "Compose"
 {{< column >}}
 # Compose your Docs with __Ease__.
 
+## Hallo, Mutti!
+
 Compose is a lean theme for the `Hugo`, inspired by [forestry.io](https://forestry.io). 
 
 We do a [Pull Request](https://github.com/onweru/compose/pulls) contributions workflow on **GitHub**. Also feel free to raise any issues or feature suggestions.
