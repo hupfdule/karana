@@ -2,14 +2,25 @@
 title = "Gemselich"
 +++
 
-{{< block "grid-3" >}}
-{{< column >}}
 # Compose your Docs with __Ease__.
 
 ## Hallo, Mutti!
 
 Des is a Schoafkaas.
 
+
+Compose is a lean theme for the `Hugo`, inspired by [forestry.io](https://forestry.io). 
+
+We do a [Pull Request](https://github.com/onweru/compose/pulls) contributions workflow on **GitHub**. Also feel free to raise any issues or feature suggestions.
+
+{{< tip >}}
+You can [generate graphs, charts](]("docs/compose/graphs-charts-tables/#show-a-pie-doughnut--bar-chart-at-once")) and tables from a csv, ~~or a json~~ dataset
+{{< /tip >}}
+
+{{< button "docs/compose/" "Read the Docs" >}}{{< button "https://github.com/onweru/compose" "Download Theme" >}}
+
+{{< block "grid-2" >}}
+{{< column >}}
 ```java
 import de.poiu.coat.annotation.Coat;
 
@@ -25,21 +36,9 @@ public interface MyConfig {
   public Optional<String> description();
 }
 ```
-
-Compose is a lean theme for the `Hugo`, inspired by [forestry.io](https://forestry.io). 
-
-We do a [Pull Request](https://github.com/onweru/compose/pulls) contributions workflow on **GitHub**. Also feel free to raise any issues or feature suggestions.
-
-{{< tip >}}
-You can [generate graphs, charts](]("docs/compose/graphs-charts-tables/#show-a-pie-doughnut--bar-chart-at-once")) and tables from a csv, ~~or a json~~ dataset
-{{< /tip >}}
-
-{{< button "docs/compose/" "Read the Docs" >}}{{< button "https://github.com/onweru/compose" "Download Theme" >}}
 {{< /column >}}
 
 {{< column >}}
-Und dann machste sowas:
-
 ```java
 final MyConfig config= new ImmutableMyConfig(new File("/path/to/config.properties"));
 
@@ -57,7 +56,8 @@ config.description().ifPresent(
 );
 ```
 {{< /column >}}
-{{< column >}}
+{{< /block >}}
+
 ### Inschtallation
 
 To use Coat in a maven based project use the following maven coordinates:
@@ -79,5 +79,3 @@ To use Coat in a maven based project use the following maven coordinates:
     </dependency>
 ```
 
-{{< /column >}}
-{{< /block >}}
